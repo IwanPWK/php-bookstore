@@ -18,8 +18,8 @@ $conn = new PDO("mysql:host=$host;dbname = $dbname", $user, $pass);
 //Errors Handling
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-if ($conn) {
-    echo "connected successfully";
-} else {
-    echo "error in db connection";
-}
+// if ($conn) {
+//     echo "connected successfully";
+// } else {
+//     echo "error in db connection";
+// }
